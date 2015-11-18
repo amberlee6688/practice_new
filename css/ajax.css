@@ -1,0 +1,53 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: "Verdana";
+}
+
+html{
+	background: url("../pic/bg.jpg") no-repeat center center;
+	min-height: 100%;
+	background-size: cover;
+}
+
+.login_show{
+	background: url("../pic/lo_bg.png") no-repeat center center;
+	width: 374px;
+	height: 500px;
+	margin: 20px auto;
+	position: relative;
+}
+
+.login_show #login{
+	position: absolute;
+	top: 95px;
+	left: 40px;
+}
+
+.login_label{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.login_label input[type=text]{
+	height: 22px;
+	width: 200px;
+	border: solid #FFFFFF 1px;
+	padding-left: 5px;
+}
+
+.login_label input[value=submit]{
+	width: 200px;
+	height: 25px;
+	margin: 18px auto;
+	border: none;
+	background-color: black;
+	border-radius: 5px;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+}
+
+.center{
+	text-align: center;
+}
